@@ -1,0 +1,18 @@
+{
+	"name": "philipnewcomer/persistent-transients",
+	"description": "Persistent transients for WordPress",
+	"type": "library",
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Philip Newcomer",
+			"email": "contact@philipnewcomer.net",
+			"homepage": "https://philipnewcomer.net"
+		}
+	],
+	"autoload": {
+		"files": [
+			"src/persistent-transients.php"
+		]
+	}
+}
