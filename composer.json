@@ -1,6 +1,7 @@
 {
 	"name": "philipnewcomer/persistent-transients",
 	"description": "Persistent transients for WordPress",
+	"version": "1.0.0",
 	"type": "library",
 	"license": "GPLv2",
 	"authors": [
