@@ -71,11 +71,11 @@ function is_transient_expired( $transient = '' ) {
 	$option_expiration_name = get_transient_expiration_option_name( $transient );
 	$expiration_timestamp   = get_option( $option_expiration_name );
 
-	if ( false === $expiration_timestamp || ! is_int( $expiration_timestamp ) ) {
+	if ( false === $expiration_timestamp ) {
 		return true;
 	}
 
-	if ( current_time( 'timestamp' ) > $expiration_timestamp ) {
+	if ( current_time( 'timestamp' ) > intval( $expiration_timestamp ) ) {
 		return true;
 	}
 
