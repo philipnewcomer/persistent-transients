@@ -2,7 +2,7 @@
 	"name": "philipnewcomer/persistent-transients",
 	"description": "Persistent transients for WordPress",
 	"type": "library",
-	"license": "GPLv2",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Philip Newcomer",
